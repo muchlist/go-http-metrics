@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	mmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
+	mmetrics "github.com/muchlist/go-http-metrics/internal/mocks/metrics"
 	"github.com/slok/go-http-metrics/metrics"
 	"github.com/slok/go-http-metrics/middleware"
 	echoMiddleware "github.com/slok/go-http-metrics/middleware/echo"

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	mockmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
-	mockmiddleware "github.com/slok/go-http-metrics/internal/mocks/middleware"
+	mockmetrics "github.com/muchlist/go-http-metrics/internal/mocks/metrics"
+	mockmiddleware "github.com/muchlist/go-http-metrics/internal/mocks/middleware"
 	"github.com/slok/go-http-metrics/metrics"
 	"github.com/slok/go-http-metrics/middleware"
 )

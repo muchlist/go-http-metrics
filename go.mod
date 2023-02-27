@@ -1,4 +1,4 @@
-module github.com/slok/go-http-metrics
+module github.com/muchlist/go-http-metrics
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0
@@ -17,6 +17,11 @@ require (
 	github.com/valyala/fasthttp v1.37.0
 	go.opencensus.io v0.23.0
 	goji.io v2.0.2+incompatible
+)
+
+require (
+	github.com/go-chi/chi/v5 v5.0.8
+	github.com/slok/go-http-metrics v0.10.0
 )
 
 require (
@@ -95,3 +100,5 @@ require (
 )
 
 go 1.17
+
+replace github.com/slok/go-http-metrics v0.10.0 => github.com/muchlist/go-http-metrics v0.10.4

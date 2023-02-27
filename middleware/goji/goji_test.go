@@ -12,7 +12,7 @@ import (
 	"goji.io"
 	"goji.io/pat"
 
-	mmetrics "github.com/slok/go-http-metrics/internal/mocks/metrics"
+	mmetrics "github.com/muchlist/go-http-metrics/internal/mocks/metrics"
 	"github.com/slok/go-http-metrics/metrics"
 	"github.com/slok/go-http-metrics/middleware"
 	gojimiddleware "github.com/slok/go-http-metrics/middleware/goji"
